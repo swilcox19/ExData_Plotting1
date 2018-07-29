@@ -38,7 +38,7 @@ with(power_subset, lines(Time, Voltage))
 # fourth plot
 with(power_subset, plot(Time, Global_reactive_power, xlab = "datetime", ylab = "Global_reactive_power", pch = NA))
 with(power_subset, lines(Time, Global_reactive_power))
-# copy plot to png file
+# copy plots to png file
 dev.copy(png, file = "plot4.png", width = 480, height = 480)
 dev.off()
 
