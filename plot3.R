@@ -27,7 +27,6 @@ with(power_subset,lines(Time, Sub_metering_2, col = "red"))
 with(power_subset,lines(Time, Sub_metering_3, col = "blue"))
 with(power_subset, points(Time, Sub_metering_3, pch = NA))
 legend("topright", lty = 1, cex = 0.7, pch = NA, col = c("black", "red", "blue"), c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
-# need to tighten up legend
 #####################################################################
 # copy plot to png file
 dev.copy(png, file = "plot3.png", width = 480, height = 480)
