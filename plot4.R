@@ -41,4 +41,3 @@ with(power_subset, lines(Time, Global_reactive_power))
 # copy plots to png file
 dev.copy(png, file = "plot4.png", width = 480, height = 480)
 dev.off()
-
